@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Personajes Rick y Morty</title>
+</head>
+<body>
+    <div class="Contenedor-caja-principal">
+        <h1>Ingrese el personaje que quiera buscar</h1>
+        <div class="search-button">
+            <input type="text" name="Input_Personaje" id="Input_Personaje" >
+            <button id="button_search" onclick="obtenerValorInput()">Buscar</button>
+        </div>
+        <div class="contenedor-caja2">
+            <h3>Informacion del personaje y capitulo</h3>
+            <div id="Lista-personajes">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
